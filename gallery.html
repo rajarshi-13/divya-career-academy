@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+
+<main class="gallery-page">
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Divya Career Academy</span>
+            </a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">University Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="admissions.html#apply" class="btn btn-primary" id="applyNowBtn">Apply Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+  <!-- Coaching Marquee -->
+  <section class="marquee-section">
+    <h2>Coaching Institute</h2>
+    <div class="marquee">
+      <div class="marquee-track" id="coaching-track"></div>
+    </div>
+  </section>
+
+  <!-- University Marquee -->
+  <section class="marquee-section">
+    <h2>University Showcase</h2>
+    <div class="marquee reverse">
+      <div class="marquee-track" id="university-track"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/js/gallery.js"></script>
+</body>
+</html>
